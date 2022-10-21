@@ -153,6 +153,7 @@ class _HomePageState extends State<HomePage> {
                               icon: const Icon(
                                 Icons.cancel,
                                 color: Colors.red,
+
                               ),
                             ),
                             IconButton(
@@ -173,7 +174,7 @@ class _HomePageState extends State<HomePage> {
                       });
                 },
                 contentPadding:
-                const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
+                const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
                 leading: const Icon(Icons.exit_to_app),
                 title: const Text(
                   "Logout",
